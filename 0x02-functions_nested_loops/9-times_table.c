@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * tines_table - prints the 9 times table, starting with 0
+ * times_table - prints the 9 times table, starting with 0
 */
 void times_table(void)
 {
@@ -10,7 +10,7 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			k = j = i;
+			k = j * i;
 			if (j == 0)
 			{
 				_putchar(k + '0');
