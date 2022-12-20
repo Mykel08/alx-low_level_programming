@@ -22,5 +22,5 @@ void puts2(char *str)
 	{											if (o % 2 == 0)
 		{											_putchar(str[o]);
 												}									}
-	_putcha('\n');
+	_putchar('\n');
 }
