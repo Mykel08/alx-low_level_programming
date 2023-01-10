@@ -12,7 +12,7 @@ int _atoi(char *s)
 	i = 0;
 	d = 0;
 	n = 0;
-	len =0;
+	len = 0;
 	f = 0;
 	digit = 0;
 
