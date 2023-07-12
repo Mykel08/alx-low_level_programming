@@ -25,7 +25,7 @@ k = 0;
 do {
 prev = list;
 k++;
-index = k * m;
+index = k *m;
 
 while (list->next && list->index < index)
 list = list->next;
